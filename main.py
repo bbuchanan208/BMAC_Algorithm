@@ -2,7 +2,7 @@ import time
 import random
 from KMP import KMP
 from macAlgo import macAlgorithm
-from macV2 import MACV2
+from BMAC import MACV2
 import matplotlib.pyplot as plt
 
 FILE_STRING_PATH = "dna.50MB"
@@ -115,9 +115,9 @@ def build_plot(pattern_length, Y_coords_MAC, Y_coords_BMAC, both=True):
 pattern_length = [3, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200]
 
 
-#text = get_text_from_file(FILE_STRING_PATH)
+text = get_text_from_file(FILE_STRING_PATH)
 #pattern = pattern_generator(10)
-perform_test_on_pattern("A" *1000000, "AAA")
+#perform_test_on_pattern("A" *1000000, "AAA")
 
 '''
 TESTCASE_1 = "AAAAAAAAAA"  # LENGTH OF 10
@@ -130,7 +130,6 @@ PATTERN = "AAA"
 '''
 # print(text[1:40])
 
-'''
 
 for e in pattern_length:
     pat = pattern_generator(e)
@@ -149,4 +148,3 @@ print(BMAC_comps)
 print(BMAC_attempts)
 print(BMAC_both)
 print(BMAC_time)
-'''
