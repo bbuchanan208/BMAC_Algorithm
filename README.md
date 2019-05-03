@@ -1,4 +1,4 @@
-The code used to test the BMAC Algorithm. The BMAC was created by Ben Buchanan. <br/>
+The code used to test the BMAC Algorithm. The BMAC was created by Ben Buchanan, Undergraduate, Department of Computer Science and Engineering, University of Connecticut. <br/>
 The BMAC was developed from the MAC Algorithm created by:<br/> 
 Prince Mahmud, Computer Science and Engineering, Discipline Khulna University, Khulna, 9208, Bangladesh <br/>
 Md. Sohel Rana, Computer Science and Engineering, Discipline Khulna University, Khulna, 9208, Bangladesh <br/>
