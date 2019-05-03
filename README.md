@@ -7,4 +7,5 @@ Kamrul Hasan Talukder, Computer Science and Engineering, Discipline Khulna Unive
 Their work can be found at the following link: 
 https://ieeexplore.ieee.org/document/8631908 <br/>
 
-All tests can be performed from the "main.py" file.
+DNA Seqencing data can be downloaded from http://pizzachili.dcc.uchile.cl/texts/dna/ <br/>
+All tests can be performed from the "main.py" file after DNA Seqencing data is added to the directory and the FILE_STRING_PATH parameter is updated properly.
